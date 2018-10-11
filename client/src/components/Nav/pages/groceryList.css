@@ -1,0 +1,41 @@
+caption {
+  caption-side: top;
+  width:100%;
+  color: darkgreen;
+}
+
+body {
+  background: url("../images/login_bg3.jpg");
+  background-size: cover;
+}
+
+.wrapContainer {
+  position: relative;
+  z-index: 1;
+  background: #FFFFFF;
+  padding: 15px;
+  width:100%;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+
+table {
+  margin: 10px;
+  width: 100%;
+  margin-bottom: 1rem;
+  background-color: white;
+}
+
+.btn, .btn-primary, .btn-primary:hover, .btn-primary:active, .btn-primary:visited {
+  background-color: #4CAF50 !important;
+  color: white;
+  text-align: center;
+}
+
+.glyphicon-trash {
+  background-color: white !important;
+  color:black;
+}
+
+.glyphicon-trash:hover {
+  background-color: lightgrey !important;
+}
